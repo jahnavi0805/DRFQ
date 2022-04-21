@@ -5,10 +5,10 @@ import java.util.*;
 
 /* 
 
-Packet ID represents the Flow number
+Packet ID represents the Flow ID number
 startTime represents Actual Arrival Time of the packet
-vStartTime represents Virtual Start of the Packet(valid only for memoryless DRFQ)
-vFinishTime represents Virtual Finish time of he packet(valid only for memoryless DRFQ)
+vStartTime represents Virtual Start time of the Packet(valid only for memoryless DRFQ)
+vFinishTime represents Virtual Finish time of the packet(valid only for memoryless DRFQ)
 reqs represents the requirements of different resources
 vStartTimes represents virtual start times at different resources(valid only for Dovetailing DRFQ) 
 vFinishTimes represents virtual finish times at different resources(valid only for Dovetailing DRFQ) 
